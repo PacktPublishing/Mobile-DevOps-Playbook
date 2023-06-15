@@ -1,0 +1,22 @@
+name: iOS CI 
+
+on: 
+  push: 
+    branches: 
+      - main 
+  pull_request: 
+jobs: 
+  build: 
+    runs-on: macos-latest 
+    steps: 
+      - name: Checkout code 
+        uses: actions/checkout@v2 
+      - name: Select Xcode version 
+        run: sudo xcode-select --switch /Applications/Xcode_13.2.1.app/Contents/Developer 
+      - name: Install CocoaPods 
+        run: | 
+          gem install cocoapods --no-document 
+          pod install 
+      - name: Build and Test 
+        run: | 
+          xcodebuild -workspace YourProject.xcworkspace -scheme YourScheme -destination 'platform=iOS Simulator,name=iPhone 13' clean test | xcpretty 
