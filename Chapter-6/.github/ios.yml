@@ -1,0 +1,43 @@
+name: iOS CI/CD 
+on: 
+  push: 
+    branches: 
+      - main 
+  pull_request: 
+    branches: 
+      - main 
+jobs: 
+  build: 
+    runs-on: macos-latest 
+    steps: 
+    - name: Checkout code 
+      uses: actions/checkout@v2 
+    - name: Set up Ruby 
+      uses: ruby/setup-ruby@v1 
+      with: 
+        ruby-version: 2.7 
+    - name: Set up Xcode 
+      run: | 
+        sudo xcode-select -s /Applications/Xcode.app/Contents/Developer 
+        sudo xcode-select --install 
+    - name: Install CocoaPods 
+      run: | 
+        gem install cocoapods 
+    - name: Install dependencies 
+      run: | 
+        cd /path/to/your/app 
+        pod install 
+    - name: Build and test 
+      run: | 
+        xcodebuild -workspace '/path/to/your/app/YourApp.xcworkspace' -scheme 'YourScheme' -sdk iphoneos -destination 'platform=iOS Simulator,OS=15.0,name=iPhone 13' build test 
+    - name: Archive and export 
+      if: github.event_name == 'push' && github.ref == 'refs/heads/main' 
+      run: | 
+        xcodebuild -workspace '/path/to/your/app/YourApp.xcworkspace' -scheme 'YourScheme' -sdk iphoneos -configuration Release -archivePath './YourApp.xcarchive' archive 
+        xcodebuild -exportArchive -archivePath './YourApp.xcarchive' -exportPath './YourApp.ipa' -exportOptionsPlist '/path/to/your/app/ExportOptions.plist' 
+    - name: Upload to TestFlight 
+      if: github.event_name == 'push' && github.ref == 'refs/heads/main' 
+      run: | 
+        xcrun altool --upload-app --type ios --file "./YourApp.ipa/YourApp.ipa" --username "your@apple.id" --password "${{ secrets.APP_SPECIFIC_PASSWORD }}" 
+      env: 
+        APP_SPECIFIC_PASSWORD: ${{ secrets.APP_SPECIFIC_PASSWORD }} 
