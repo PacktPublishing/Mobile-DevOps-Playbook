@@ -1,0 +1,67 @@
+name: Integration Test 
+
+on: 
+
+  push: 
+
+    branches: [main] 
+
+  pull_request: 
+
+    branches: [main] 
+
+jobs: 
+
+  build-and-test: 
+
+    runs-on: ubuntu-latest 
+
+    steps: 
+
+    - name: Checkout code 
+
+      uses: actions/checkout@v2 
+
+    - name: Set up Flutter 
+
+      uses: subosito/flutter-action@v1 
+
+      with: 
+
+        flutter-version: '2.5.3' 
+
+    - name: Set up emulator 
+
+      uses: reactivecircus/android-emulator-runner@v2 
+
+      with: 
+
+        api-level: 30 
+
+        arch: x86 
+
+        profile: Nexus 5 
+
+        timeout-sec: 360 
+
+    - name: Set up simulator 
+
+      uses: actions/virtual-environments@v1 
+
+      with: 
+
+        image: macos-latest 
+
+        args: --use-standard-display --keep-cache --install 
+
+    - name: Install dependencies 
+
+      run: flutter pub get 
+
+    - name: Run integration test on Android emulator 
+
+      run: flutter drive --driver=test_driver/integration_test.dart --target=test_driver/app.dart --flavor dev 
+
+    - name: Run integration test on iOS simulator 
+
+      run: flutter drive --driver=test_driver/integration_test.dart --target=test_driver/app.dart --flavor dev -d "apple_ios_simulator" 

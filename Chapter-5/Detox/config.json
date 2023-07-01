@@ -1,0 +1,39 @@
+{ 
+    "test-runner": "jest", 
+    "runner-config": "e2e/config.json", 
+    "specs": "e2e/**/*.spec.js", 
+  
+    "behavior": { 
+  
+      "init": { 
+        "launchApp": true, 
+        "exposeGlobals": true 
+      }, 
+  
+      "cleanup": { 
+        "shutdownDevice": true 
+      } 
+  
+    }, 
+  
+    "devices": { 
+  
+      "emulator": { 
+  
+        "type": "android.emulator", 
+        "device": { 
+          "avdName": "emulator-5554", 
+          "platformVersion": "30", 
+          "screenSize": "1080x1920", 
+          "deviceType": "phone", 
+          "name": "Nexus 5" 
+        }, 
+  
+        "binaryPath": "android/app/build/outputs/apk/debug/app-debug.apk", 
+        "testBinaryPath": "android/app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk", 
+        "build": "cd android && ./gradlew assembleDebug assembleAndroidTest -DtestBuildType=debug && cd .." 
+      } 
+    } 
+  } 
+  
+  

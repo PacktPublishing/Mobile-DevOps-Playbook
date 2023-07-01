@@ -1,0 +1,35 @@
+
+            gcloud: 
+
+              results-bucket: uitests-reports 
+              results-dir: $BUILD_NUMBER 
+              record-video: true 
+              timeout: 30m 
+              async: false 
+              app: $APK_PATH 
+              test: $TEST_APK_PATH 
+              use-orchestrator: true 
+
+              environment-variables: 
+                coverage: true 
+                coverageFilePath: "/sdcard/" 
+                clearPackageData: true 
+
+              directories-to-pull: 
+              - "/sdcard/" 
+
+              performance-metrics: false 
+              test-targets: 
+                - "annotation com.sample.samplecalculator.utils.RegressionTest" 
+
+              device: 
+              - model: "Pixel2" 
+                version: "30" 
+
+            flank: 
+              max-test-shards: 6 
+              num-test-runs: 1 
+              shard-time: 30 
+              smart-flank-gcs-path: "gs://uitests-reports/android_ta.xml" 
+              test-targets-always-run: 
+              - "package com.sample.samplecalculator.regression" 

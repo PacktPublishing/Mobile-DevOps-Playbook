@@ -1,0 +1,21 @@
+appId: de.moataz.maestro.demo 
+
+--- 
+
+- launchApp: 
+    appId: "de.moataz.maestro.demo" 
+    stopApp: true 
+    clearState: true 
+
+- inputRandomEmail 
+
+- tapOn: "password" 
+
+- inputRandomText 
+
+- assertVisible: "SIGN IN OR REGISTER" 
+- takeScreenshot: MainScreen 
+- tapOn: "SIGN IN OR REGISTER" 
+- takeScreenshot: LoggedInScreen 
+
+- stopApp 

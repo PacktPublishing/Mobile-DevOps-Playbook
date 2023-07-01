@@ -1,0 +1,12 @@
+scripts: 
+    - name: Launch emulator 
+      script: |  
+        cd $ANDROID_HOME/tools 
+        emulator -avd emulator & 
+        adb wait-for-device 
+    - name: Test 
+      script: |  
+        set -e 
+        ./gradlew connectedAndroidTest 
+        adb logcat -d > emulator.log 
+    test_report: app/build/outputs/androidTest-results/connected/*.xml 

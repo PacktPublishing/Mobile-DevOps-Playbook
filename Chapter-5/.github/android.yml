@@ -1,0 +1,38 @@
+name: Espresso Tests 
+on: 
+  push: 
+    branches: [ main ] 
+  pull_request: 
+    branches: [ main ] 
+
+jobs: 
+
+  build-and-test: 
+    runs-on: ubuntu-latest 
+    steps: 
+    - name: Checkout code 
+      uses: actions/checkout@v2 
+
+    - name: Set up JDK 
+      uses: actions/setup-java@v2 
+      with: 
+        java-version: 11 
+
+
+    - name: Set up emulator 
+      uses: reactivecircus/android-emulator-runner@v2 
+      with: 
+        api-level: 30 
+        arch: x86 
+        profile: Nexus 5 
+        timeout-sec: 360 
+
+    - name: Start emulator 
+      run: adb devices && emulator -avd emulator-5554 -no-audio -no-window & 
+    - name: Grant execute permission to gradlew 
+      run: chmod +x gradlew 
+
+    - name: Build and test 
+      run: | 
+        ./gradlew assembleDebug 
+        ./gradlew connectedCheck 

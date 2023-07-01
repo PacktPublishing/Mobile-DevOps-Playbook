@@ -1,0 +1,83 @@
+#!/usr/bin/env bash 
+
+set -e 
+
+set -o pipefail 
+
+# debug log 
+
+set -x 
+
+npm install -g saucectl 
+
+saucectl -v 
+
+saucectl configure --username $SAUCE_USERNAME --accessKey $SAUCE_ACCESS_KEY 
+
+saucectl run --config .sauce/config.yml 
+
+ 
+
+Here is the example of the config.yml file for to run XCUITest for iOS app 
+
+ 
+
+// YAML file 
+
+apiVersion: v1alpha 
+
+kind: xcuitest 
+
+sauce: 
+
+  region: eu-central-1 
+
+  concurrency: 1 
+
+  metadata: 
+
+    tags: 
+
+      - e2e 
+
+      - release team 
+
+      - other tag 
+
+    build: $BUILD_NUMBER 
+
+ 
+
+xcuitest: 
+
+  app: $BITRISE_IPA_PATH 
+
+  testApp: ./Debug-iphoneos/DailyCheckUITests-Runner.app 
+
+ 
+
+suites: 
+
+  - name: "Example 1 - Run all tests" 
+
+    devices: 
+
+      # Run on whatever iPhone device is available 
+
+      - name: "iPhone.*" 
+
+        platformVersion: "15" 
+
+ 
+
+artifacts: 
+
+  download: 
+
+    when: always 
+
+    match: 
+
+      - "junit.xml" 
+
+    directory: ./artifacts/ 
