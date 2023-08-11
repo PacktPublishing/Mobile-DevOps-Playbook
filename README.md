@@ -8,6 +8,14 @@
 
 The "Mobile DevOps Playbook" is an extensive guide that delves into various aspects of Mobile DevOps. It emphasizes practical approaches, tools, and methods to hasten the delivery of top-notch mobile applications. This book is designed for mobile app developers, DevOps professionals, and teams who want to enhance their app development and deployment procedures.
 
+If you're interested in reading the full book, you can find it on the following platforms:
+
+- 📕 [US Kindle and Paperback](https://lnkd.in/eQ-dMceH)
+- 📗 [UK Kindle and Paperback](https://lnkd.in/eqb45qDQ)
+- 📘 [DE Kindle and Paperback](https://lnkd.in/eRJnZTes)
+
+Both Kindle and Paperback versions of the book will be available. To access other electronic formats, such as PDF and EPUB, please refer to the [Packt website](https://lnkd.in/e8EcBEJg).
+
 ## Who This Book Is For
 
 If you're a DevOps Engineer looking to enhance your knowledge of Mobile DevOps for efficient mobile app releases, this book is an ideal resource for you. Mobile Developers, Mobile Release Managers, Mobile Platform Engineers, and QA Engineers involved in mobile app development can significantly benefit from this book. The Mobile DevOps Playbook provides valuable insights and practical advice to help you:
@@ -53,6 +61,5 @@ The book covers the following topics to explore in the world of Mobile DevOps:
 
 11. **Predicting the Future of Mobile DevOps**
     Gain insights into emerging trends and predictions for the future of Mobile DevOps.
-
 
 Happy learning and developing!
