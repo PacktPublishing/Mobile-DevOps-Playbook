@@ -1,4 +1,5 @@
 # Mobile DevOps Playbook
+### A practical guide for accelerating the delivery of high-quality mobile applications
 
 <p align="center">
 <img src="book-cover/book-cover.jpeg" data-canonical-src="book-cover/book-cover.jpeg" width=400 align="center" />
