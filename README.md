@@ -18,7 +18,9 @@ Both Kindle and Paperback versions of the book will be available. To access othe
 
 ## Who This Book Is For
 
-If you're a DevOps Engineer looking to enhance your knowledge of Mobile DevOps for efficient mobile app releases, this book is an ideal resource for you. Mobile Developers, Mobile Release Managers, Mobile Platform Engineers, and QA Engineers involved in mobile app development can significantly benefit from this book. The Mobile DevOps Playbook provides valuable insights and practical advice to help you:
+If you're a DevOps Engineer looking to enhance your knowledge of Mobile DevOps for efficient mobile app releases, this book is an ideal resource for you. Mobile Developers, Mobile Release Managers, Mobile Platform Engineers, and QA Engineers involved in mobile app development can significantly benefit from this book. 
+
+The Mobile DevOps Playbook provides valuable insights and practical advice to help you:
 
 - Increase your team's productivity and efficiency
 - Reduce the time required for delivering high-quality mobile applications
