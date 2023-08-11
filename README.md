@@ -54,5 +54,3 @@ The book covers the following topics to explore in the world of Mobile DevOps:
 
 
 Happy learning and developing!
-
-![Mobile DevOps Playbook](book-cover/book-cover.jpeg)
