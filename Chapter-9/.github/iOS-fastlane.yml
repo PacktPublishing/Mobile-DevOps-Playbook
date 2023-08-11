@@ -1,0 +1,30 @@
+name: iOS Deployment Workflow
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Build and Deploy
+    runs-on: macos-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Xcode
+      uses: actions/setup-xcode@v2
+      with:
+        xcode-version: 12 # Choose your desired Xcode version
+
+    - name: Install Bundler
+      run: gem install bundler
+
+    - name: Install Dependencies
+      run: bundle install
+      working-directory: ./path/to/your/project
+
+    - name: Run Fastlane
+      run: bundle exec fastlane your_lane # Replace with the actual Fastlane lane you want to run
+      working-directory: ./path/to/your/project
