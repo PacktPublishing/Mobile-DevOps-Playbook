@@ -1,4 +1,4 @@
-# Mobile DevOps Playbook
+# Mobile DevOps Playbook 📘
 ### A practical guide for accelerating the delivery of high-quality mobile applications
 
 <p align="center">
@@ -23,10 +23,11 @@ If you're a DevOps Engineer looking to enhance your knowledge of Mobile DevOps f
 
 The Mobile DevOps Playbook provides valuable insights and practical advice to help you:
 
-- Increase your team's productivity and efficiency
-- Reduce the time required for delivering high-quality mobile applications
-- Address common challenges encountered during mobile app development
-- Simplify your app development and deployment processes by utilizing industry-standard tools and techniques.
+🚀 Increase your team's productivity and efficiency </br>
+⏱️ Reduce the time required for delivering high-quality mobile applications </br>
+🛠️ Address common challenges encountered during mobile app development </br>
+🔐 Simplify your app development and deployment processes by utilizing industry-standard tools and techniques.
+
 
 ## 📖 Table of Contents
 
