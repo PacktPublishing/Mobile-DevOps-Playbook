@@ -1,6 +1,8 @@
 # Mobile DevOps Playbook
 
-![Mobile DevOps Playbook](book-cover/book-cover.jpeg)
+<p align="center">
+<img src="book-cover/book-cover.jpeg" data-canonical-src="book-cover/book-cover.jpeg" width=400 align="center" />
+</p>
 
 ## About the Book
 
