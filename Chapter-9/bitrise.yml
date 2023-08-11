@@ -1,0 +1,24 @@
+format_version: 2
+default_step_lib_source: https://github.com/bitrise-io/bitrise-steplib.git
+
+workflows:
+  primary:
+    steps:
+      - cache-pull:
+          inputs:
+            - cache_paths: |
+                ~/Library/Caches/CocoaPods
+                ~/Library/Developer/Xcode/DerivedData
+            - cache_name: "cocoapods-deriveddata"
+
+      - activate-ssh-key@4.0.3:
+          run_if: '{{getenv "SSH_RSA_PRIVATE_KEY" | ne ""}}'
+
+      # Other steps for building, testing, and deploying your app
+
+      - cache-push:
+          inputs:
+            - cache_paths: |
+                ~/Library/Caches/CocoaPods
+                ~/Library/Developer/Xcode/DerivedData
+            - cache_name: "cocoapods-deriveddata"
