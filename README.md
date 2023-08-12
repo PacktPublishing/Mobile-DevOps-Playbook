@@ -33,26 +33,26 @@ The Mobile DevOps Playbook provides valuable insights and practical advice to he
 
 The book covers the following topics to explore in the world of Mobile DevOps:
 
-1. **Overcoming Challenges in Mobile DevOps**
+1. **Resolving challenges in Mobile DevOps**
    Explore the unique challenges faced in Mobile DevOps and discover strategies to overcome them.
 
 2. **Understanding the Mobile Ecosystem**
    Dive into the intricacies of the mobile ecosystem, including platforms, devices, and user expectations.
 
-3. **The Basics of Mobile DevOps**
+3. **Mobile DevOps Fundamentals**
    Build a strong foundation by understanding the core concepts and principles of Mobile DevOps.
 
 4. **Achieving Continuous Delivery with Mobile DevOps**
    Learn how to establish a seamless pipeline for continuous delivery of your mobile applications.
 
-5. **Implementing Effective Testing Strategies for Mobile Apps**
+5. **Implementing Robust Testing Strategies**
    Explore testing methodologies and strategies tailored for mobile applications to ensure their quality.
 
 6. **Releasing Mobile Applications**
    Discover best practices for planning and executing successful mobile app releases.
 
-7. **Establishing Monitoring and Observability for Mobile Apps**
-   Learn how to monitor your mobile apps effectively and gain insights into user behavior.
+7. **Establishing Monitoring and Observability for Mobile apps**
+   Learn how to monitor your mobile apps effectively and gain insights into user behaviour.
 
 8. **Keeping Mobile DevOps Secure**
    Understand security considerations and practices to safeguard your mobile DevOps processes.
