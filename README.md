@@ -11,9 +11,11 @@ The "Mobile DevOps Playbook" is an extensive guide that delves into various aspe
 
 If you're interested in reading the full book, you can find it on the following platforms:
 
-- 📕 [US Kindle and Paperback]([https://lnkd.in/eQ-dMceH](https://www.amazon.com/Mobile-DevOps-Playbook-accelerating-high-quality/dp/1803242558/ref=sr_1_1?keywords=9781803242552&qid=1680253844&sr=8-1))
-- 📗 [UK Kindle and Paperback]([https://lnkd.in/eqb45qDQ](https://www.amazon.co.uk/Mobile-DevOps-Playbook-accelerating-high-quality/dp/1803242558/ref=sr_1_1?keywords=9781803242552&qid=1680253844&sr=8-1))
-- 📘 [DE Kindle and Paperback]([https://lnkd.in/eRJnZTes](https://www.amazon.de/-/en/Moataz-Nabil/dp/1803242558/ref=sr_1_1?crid=10K2WZELU1F2R&keywords=mobile+devops&qid=1682510817&sprefix=%2Caps%2C123&sr=8-1))
+- 📕 [US Kindle and Paperback](https://www.amazon.com/Mobile-DevOps-Playbook-accelerating-high-quality-ebook/dp/B0BZSFQZKY/ref=sr_1_1?crid=CQIAIANI3AT4&keywords=mobile+devops&qid=1693467748&sprefix=mobile+devop%2Caps%2C194&sr=8-1)
+- 📗 [UK Kindle and Paperback](https://www.amazon.co.uk/Mobile-DevOps-Playbook-accelerating-high-quality-ebook/dp/B0BZSFQZKY/ref=sr_1_1?crid=3APIRQQA67E81&keywords=mobile+devops&qid=1693467823&sprefix=mobile+devops%2Caps%2C89&sr=8-1)
+- 📘 [DE Kindle and Paperback](https://www.amazon.de/-/en/Moataz-Nabil-ebook/dp/B0BZSFQZKY/ref=sr_1_2?crid=183192O61ZEYW&keywords=mobile+devops&qid=1693467847&sprefix=mobile+devops%2Caps%2C87&sr=8-2)
+- 📙 [IN Kindle and Paperback](https://www.amazon.in/Mobile-DevOps-Playbook-accelerating-high-quality-ebook/dp/B0BZSFQZKY/ref=sr_1_3?crid=ZNRMWFGEHYQD&keywords=mobile+devops&qid=1693467903&sprefix=mobile+devops%2Caps%2C92&sr=8-3)
+- 📔 [AU Kindle and Paperback](https://www.amazon.com.au/Mobile-DevOps-Playbook-accelerating-high-quality-ebook/dp/B0BZSFQZKY/ref=sr_1_2?crid=PXBFKVMQ0HTE&keywords=mobile+devops&qid=1693468020&sprefix=mobile+devop%2Caps%2C301&sr=8-2)
 
 Both Kindle and Paperback versions of the book will be available. To access other electronic formats, such as PDF and EPUB, please refer to the [Packt website](https://www.packtpub.com/product/mobile-devops-playbook/9781803242552).
 
