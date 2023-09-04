@@ -1,71 +1,56 @@
-# Mobile DevOps Playbook 📘
-### A practical guide for accelerating the delivery of high-quality mobile applications
+# Mobile DevOps Playbook
 
-<p align="center">
-<img src="book-cover/book-cover.jpeg" data-canonical-src="book-cover/book-cover.jpeg" width=400 align="center" />
-</p>
+<a href="https://www.packtpub.com/product/mobile-devops-playbook/9781803242552"><img src="https://m.media-amazon.com/images/I/41kXfHTc96L._SX403_BO1,204,203,200_.jpg" alt="Book Name" height="256px" align="right"></a>
 
-## About the Book
+This is the code repository for [Mobile DevOps Playbook](https://www.packtpub.com/product/mobile-devops-playbook/9781803242552), published by Packt.
 
-The "Mobile DevOps Playbook" is an extensive guide that delves into various aspects of Mobile DevOps. It emphasizes practical approaches, tools, and methods to hasten the delivery of top-notch mobile applications. This book is designed for mobile app developers, DevOps professionals, and teams who want to enhance their app development and deployment procedures.
+**A practical guide for delivering high-quality mobile applications like a pro**
 
-If you're interested in reading the full book, you can find it on the following platforms:
+## What is this book about?
+To build mobile apps, you need to understand mobile-first features, tools, and processes that help you build, test, and release robust apps faster and more efficiently. The multitude of challenges stemming from mobile development's inherent complexities, including native iOS and Android app creation, cross-platform frameworks, and the implementation of scalable architectures within extensive teams, collectively contribute to a substantial number of obstacles that can significantly prolong the release process.
+This book will help you understand and implement the best practices of mobile DevOps for continuous integration, testing, delivery, deployment, and monitoring.
 
-- 📕 [US Kindle and Paperback](https://www.amazon.com/Mobile-DevOps-Playbook-accelerating-high-quality-ebook/dp/B0BZSFQZKY/ref=sr_1_1?crid=CQIAIANI3AT4&keywords=mobile+devops&qid=1693467748&sprefix=mobile+devop%2Caps%2C194&sr=8-1)
-- 📗 [UK Kindle and Paperback](https://www.amazon.co.uk/Mobile-DevOps-Playbook-accelerating-high-quality-ebook/dp/B0BZSFQZKY/ref=sr_1_1?crid=3APIRQQA67E81&keywords=mobile+devops&qid=1693467823&sprefix=mobile+devops%2Caps%2C89&sr=8-1)
-- 📘 [DE Kindle and Paperback](https://www.amazon.de/-/en/Moataz-Nabil-ebook/dp/B0BZSFQZKY/ref=sr_1_2?crid=183192O61ZEYW&keywords=mobile+devops&qid=1693467847&sprefix=mobile+devops%2Caps%2C87&sr=8-2)
-- 📙 [IN Kindle and Paperback](https://www.amazon.in/Mobile-DevOps-Playbook-accelerating-high-quality-ebook/dp/B0BZSFQZKY/ref=sr_1_3?crid=ZNRMWFGEHYQD&keywords=mobile+devops&qid=1693467903&sprefix=mobile+devops%2Caps%2C92&sr=8-3)
-- 📔 [AU Kindle and Paperback](https://www.amazon.com.au/Mobile-DevOps-Playbook-accelerating-high-quality-ebook/dp/B0BZSFQZKY/ref=sr_1_2?crid=PXBFKVMQ0HTE&keywords=mobile+devops&qid=1693468020&sprefix=mobile+devop%2Caps%2C301&sr=8-2)
+This book covers the following exciting features: 
+* Discover the principles, components, and concepts of mobile DevOps
+* Develop a successful mobile CI/CD strategy in your organization
+* Identify the tools and processes for mobile app release and distribution
+* Develop and release mobile applications efficiently and reliably
+* Implement continuous testing with mobile DevOps
+* Leverage Mobile DevSecOps to improve security, efficiency of your Mobile app development process
 
-Both Kindle and Paperback versions of the book will be available. To access other electronic formats, such as PDF and EPUB, please refer to the [Packt website](https://www.packtpub.com/product/mobile-devops-playbook/9781803242552).
+If you feel this book is for you, get your [copy](https://www.amazon.com/Mobile-DevOps-Playbook-accelerating-high-quality/dp/1803242558) today!
 
-## Who This Book Is For
+<a href="https://www.packtpub.com/?utm_source=github&utm_medium=banner&utm_campaign=GitHubBanner"><img src="https://raw.githubusercontent.com/PacktPublishing/GitHub/master/GitHub.png" alt="https://www.packtpub.com/" border="5" /></a>
 
-If you're a DevOps Engineer looking to enhance your knowledge of Mobile DevOps for efficient mobile app releases, this book is an ideal resource for you. Mobile Developers, Mobile Release Managers, Mobile Platform Engineers, and QA Engineers involved in mobile app development can significantly benefit from this book. 
+## Instructions and Navigations
+All of the code is organized into folders. For example, Chapter05.
 
-The Mobile DevOps Playbook provides valuable insights and practical advice to help you:
+The code will look like the following:
+```
+wget --quiet https://github.com/TestArmada/flank/releases/download/v22.05.0/flank.jar -O /usr/local/bin/flank.jar
+java -jar /usr/local/bin/flank.jar firebase test android run
+```
 
-🚀 Increase your team's productivity and efficiency </br>
-⏱️ Reduce the time required for delivering high-quality mobile applications </br>
-🛠️ Address common challenges encountered during mobile app development </br>
-🔐 Simplify your app development and deployment processes by utilizing industry-standard tools and techniques.
+**Following is what you need for this book:**
+This book is for DevOps engineers looking to learn more about mobile DevOps to build effective processes for releasing mobile apps quickly and frequently. It’s also an excellent resource for mobile developers, mobile release managers, mobile architects, mobile platform engineers, and QA engineers, involved in mobile app development. Familiarity with DevOps and mobile app challenges related to testing, releasing, and monitoring especially at scale is a prerequisite.
+
+With the following software and hardware list you can run all code files present in the book (Chapter 1-11).
+
+### Software and Hardware List
+
+| Chapter  | Software required                                                                                          | OS required                        |
+| -------- | -----------------------------------------------------------------------------------------------------------| -----------------------------------|
+| 1-11     | Java +8, Node.js and npm, Git, React Native, Flutter, Android Studio, Google Play Store Develper account   | Windows, Mac OS X, and Linux (Any) |
+| 1-11     | Xcode and Apple Developer account                                                                          | Mac OS X                           |
 
 
-## 📖 Table of Contents
 
-The book covers the following topics to explore in the world of Mobile DevOps:
+### Related products <Other books you may enjoy>
+* Azure DevOps Explained [[Packt]](https://www.packtpub.com/product/azure-devops-explained/9781800563513) [[Amazon]](https://www.amazon.com/Azure-DevOps-Explained-started-practices/dp/1800563515)
 
-1. **Resolving challenges in Mobile DevOps**
-   Explore the unique challenges faced in Mobile DevOps and discover strategies to overcome them.
+* Learning DevOps - Second Edition [[Packt]](https://www.packtpub.com/product/learning-devops-second-edition/9781801818964) [[Amazon]](https://www.amazon.com/Learning-DevOps-comprehensive-accelerating-Kubernetes/dp/1801818967)
 
-2. **Understanding the Mobile Ecosystem**
-   Dive into the intricacies of the mobile ecosystem, including platforms, devices, and user expectations.
-
-3. **Mobile DevOps Fundamentals**
-   Build a strong foundation by understanding the core concepts and principles of Mobile DevOps.
-
-4. **Achieving Continuous Delivery with Mobile DevOps**
-   Learn how to establish a seamless pipeline for continuous delivery of your mobile applications.
-
-5. **Implementing Robust Testing Strategies**
-   Explore testing methodologies and strategies tailored for mobile applications to ensure their quality.
-
-6. **Releasing Mobile Applications**
-   Discover best practices for planning and executing successful mobile app releases.
-
-7. **Establishing Monitoring and Observability for Mobile apps**
-   Learn how to monitor your mobile apps effectively and gain insights into user behaviour.
-
-8. **Keeping Mobile DevOps Secure**
-   Understand security considerations and practices to safeguard your mobile DevOps processes.
-
-9. **Best Practices for Mobile DevOps Teams**
-   Explore proven best practices to enhance collaboration and productivity within your DevOps team.
-
-10. **Improving Productivity with Developer Experience and Platform Engineering**
-    Learn how to enhance developer experience and leverage platform engineering for better results.
-
-11. **Predicting the Future of Mobile DevOps**
-    Gain insights into emerging trends and predictions for the future of Mobile DevOps.
-
-Happy learning and developing!
+## Get to Know the Author
+**Moataz Nabil**
+He is an experienced Developer Advocate and Test Automation Consultant with a passion for building relationships with developers and customers. He has worked in software development and testing for over 12 years. During his career, he has led and managed teams of test automation engineers responsible for designing, developing, and maintaining automated testing solutions for software products. A frequent speaker at developer events and conferences in many countries.
+He has worked at Delivery Hero and Zalando SE. Currently, he is a developer advocate at Bitrise, building amazing products for mobile developers and promoting the Mobile DevOps platform. Additionally, he is an AWS Community Builder and a DevNetwork Advisory Board Member.
