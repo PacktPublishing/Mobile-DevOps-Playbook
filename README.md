@@ -40,7 +40,7 @@ With the following software and hardware list you can run all code files present
 
 | Chapter  | Software required                                                                                          | OS required                        |
 | -------- | -----------------------------------------------------------------------------------------------------------| -----------------------------------|
-| 1-11     | Java +8, Node.js and npm, Git, React Native, Flutter, Android Studio, Google Play Store Develper account   | Windows, Mac OS X, and Linux (Any) |
+| 1-11     | Java +8, Node.js and npm, Git, React Native, Flutter, Android Studio, Google Play Store Developer account  | Windows, Mac OS X, and Linux (Any) |
 | 1-11     | Xcode and Apple Developer account                                                                          | Mac OS X                           |
 
 
