@@ -1,3 +1,6 @@
+
+<b><p align='center'>[![Packt Sale](https://static.packt-cdn.com/assets/images/image.jpeg)](https://www.packtpub.com/)</p></b>Get this book on sale at [Packt](https://www.packtpub.com/).
+
 # Mobile DevOps Playbook
 
 <a href="https://www.packtpub.com/product/mobile-devops-playbook/9781803242552"><img src="https://m.media-amazon.com/images/I/41kXfHTc96L._SX403_BO1,204,203,200_.jpg" alt="Book Name" height="256px" align="right"></a>
